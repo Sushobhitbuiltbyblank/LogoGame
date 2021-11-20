@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		76C0C0F62748A7A800288D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C0F52748A7A800288D32 /* AppDelegate.swift */; };
 		76C0C0F82748A7A800288D32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C0F72748A7A800288D32 /* SceneDelegate.swift */; };
-		76C0C0FA2748A7A800288D32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C0F92748A7A800288D32 /* ViewController.swift */; };
+		76C0C0FA2748A7A800288D32 /* LogoGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C0F92748A7A800288D32 /* LogoGameViewController.swift */; };
 		76C0C0FD2748A7A800288D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C0C0FB2748A7A800288D32 /* Main.storyboard */; };
 		76C0C0FF2748A7AA00288D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C0C0FE2748A7AA00288D32 /* Assets.xcassets */; };
 		76C0C1022748A7AA00288D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C0C1002748A7AA00288D32 /* LaunchScreen.storyboard */; };
 		76C0C10D2748A7AA00288D32 /* LogoQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C10C2748A7AA00288D32 /* LogoQuizTests.swift */; };
 		76C0C1172748A7AA00288D32 /* LogoQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C1162748A7AA00288D32 /* LogoQuizUITests.swift */; };
 		76C0C1192748A7AA00288D32 /* LogoQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C1182748A7AA00288D32 /* LogoQuizUITestsLaunchTests.swift */; };
+		76C0C1292748A85200288D32 /* logo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76C0C1282748A85200288D32 /* logo.txt */; };
+		76C0C12B2748A93400288D32 /* LogoGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C12A2748A93400288D32 /* LogoGameViewModel.swift */; };
+		76C0C12D2748AA6D00288D32 /* LogoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C12C2748AA6D00288D32 /* LogoModel.swift */; };
+		76C0C12F2748ABF700288D32 /* LogoGameVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C12E2748ABF700288D32 /* LogoGameVM.swift */; };
+		76C0C1332748ACFB00288D32 /* TextFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C1322748ACFB00288D32 /* TextFileManager.swift */; };
+		76C0C1352748AEAE00288D32 /* LogoListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C1342748AEAE00288D32 /* LogoListProvider.swift */; };
+		76C0C1372748AF3A00288D32 /* LocalLogoDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C1362748AF3A00288D32 /* LocalLogoDataProvider.swift */; };
+		76C0C13C2748B93C00288D32 /* CachableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C13B2748B93C00288D32 /* CachableImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,7 @@
 		76C0C0F22748A7A800288D32 /* LogoQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogoQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C0C0F52748A7A800288D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76C0C0F72748A7A800288D32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76C0C0F92748A7A800288D32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76C0C0F92748A7A800288D32 /* LogoGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoGameViewController.swift; sourceTree = "<group>"; };
 		76C0C0FC2748A7A800288D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76C0C0FE2748A7AA00288D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C0C1012748A7AA00288D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		76C0C1122748A7AA00288D32 /* LogoQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogoQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C0C1162748A7AA00288D32 /* LogoQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoQuizUITests.swift; sourceTree = "<group>"; };
 		76C0C1182748A7AA00288D32 /* LogoQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76C0C1282748A85200288D32 /* logo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logo.txt; sourceTree = "<group>"; };
+		76C0C12A2748A93400288D32 /* LogoGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoGameViewModel.swift; sourceTree = "<group>"; };
+		76C0C12C2748AA6D00288D32 /* LogoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoModel.swift; sourceTree = "<group>"; };
+		76C0C12E2748ABF700288D32 /* LogoGameVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoGameVM.swift; sourceTree = "<group>"; };
+		76C0C1322748ACFB00288D32 /* TextFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFileManager.swift; sourceTree = "<group>"; };
+		76C0C1342748AEAE00288D32 /* LogoListProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoListProvider.swift; sourceTree = "<group>"; };
+		76C0C1362748AF3A00288D32 /* LocalLogoDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLogoDataProvider.swift; sourceTree = "<group>"; };
+		76C0C13B2748B93C00288D32 /* CachableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachableImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +115,12 @@
 		76C0C0F42748A7A800288D32 /* LogoQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				76C0C0F52748A7A800288D32 /* AppDelegate.swift */,
-				76C0C0F72748A7A800288D32 /* SceneDelegate.swift */,
-				76C0C0F92748A7A800288D32 /* ViewController.swift */,
-				76C0C0FB2748A7A800288D32 /* Main.storyboard */,
-				76C0C0FE2748A7AA00288D32 /* Assets.xcassets */,
+				76C0C1312748ACD400288D32 /* Utils */,
+				76C0C1252748A7F000288D32 /* AppSettings */,
+				76C0C1262748A81000288D32 /* Features */,
+				76C0C1272748A83900288D32 /* Resource */,
 				76C0C1002748A7AA00288D32 /* LaunchScreen.storyboard */,
+				76C0C0FB2748A7A800288D32 /* Main.storyboard */,
 				76C0C1032748A7AA00288D32 /* Info.plist */,
 			);
 			path = LogoQuiz;
@@ -125,6 +141,78 @@
 				76C0C1182748A7AA00288D32 /* LogoQuizUITestsLaunchTests.swift */,
 			);
 			path = LogoQuizUITests;
+			sourceTree = "<group>";
+		};
+		76C0C1252748A7F000288D32 /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				76C0C0F52748A7A800288D32 /* AppDelegate.swift */,
+				76C0C0F72748A7A800288D32 /* SceneDelegate.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		76C0C1262748A81000288D32 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				76C0C1382748AF9700288D32 /* Views */,
+				76C0C1302748AC0600288D32 /* Protocols */,
+				76C0C12E2748ABF700288D32 /* LogoGameVM.swift */,
+				76C0C1392748AFAD00288D32 /* Models */,
+				76C0C1362748AF3A00288D32 /* LocalLogoDataProvider.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		76C0C1272748A83900288D32 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				76C0C1282748A85200288D32 /* logo.txt */,
+				76C0C0FE2748A7AA00288D32 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		76C0C1302748AC0600288D32 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				76C0C1342748AEAE00288D32 /* LogoListProvider.swift */,
+				76C0C12A2748A93400288D32 /* LogoGameViewModel.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		76C0C1312748ACD400288D32 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				76C0C13A2748B8FC00288D32 /* UIUtil */,
+				76C0C1322748ACFB00288D32 /* TextFileManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		76C0C1382748AF9700288D32 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76C0C0F92748A7A800288D32 /* LogoGameViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76C0C1392748AFAD00288D32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76C0C12C2748AA6D00288D32 /* LogoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76C0C13A2748B8FC00288D32 /* UIUtil */ = {
+			isa = PBXGroup;
+			children = (
+				76C0C13B2748B93C00288D32 /* CachableImageView.swift */,
+			);
+			path = UIUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +322,7 @@
 				76C0C1022748A7AA00288D32 /* LaunchScreen.storyboard in Resources */,
 				76C0C0FF2748A7AA00288D32 /* Assets.xcassets in Resources */,
 				76C0C0FD2748A7A800288D32 /* Main.storyboard in Resources */,
+				76C0C1292748A85200288D32 /* logo.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C0C0FA2748A7A800288D32 /* ViewController.swift in Sources */,
+				76C0C12D2748AA6D00288D32 /* LogoModel.swift in Sources */,
+				76C0C1352748AEAE00288D32 /* LogoListProvider.swift in Sources */,
+				76C0C12F2748ABF700288D32 /* LogoGameVM.swift in Sources */,
+				76C0C0FA2748A7A800288D32 /* LogoGameViewController.swift in Sources */,
+				76C0C12B2748A93400288D32 /* LogoGameViewModel.swift in Sources */,
 				76C0C0F62748A7A800288D32 /* AppDelegate.swift in Sources */,
+				76C0C1332748ACFB00288D32 /* TextFileManager.swift in Sources */,
 				76C0C0F82748A7A800288D32 /* SceneDelegate.swift in Sources */,
+				76C0C1372748AF3A00288D32 /* LocalLogoDataProvider.swift in Sources */,
+				76C0C13C2748B93C00288D32 /* CachableImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
